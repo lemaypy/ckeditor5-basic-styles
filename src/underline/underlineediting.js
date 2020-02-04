@@ -43,10 +43,10 @@ export default class UnderlineEditing extends Plugin {
 
 		editor.conversion.attributeToElement( {
 			model: UNDERLINE,
-			view: 'u',
+			view: 'span',
 			upcastAlso: {
 				styles: {
-					'text-decoration': 'underline'
+					'white-space': 'nowrap'
 				}
 			}
 		} );
